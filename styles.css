@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Slab', serif;
+}
+
+.header{
+	background: rgba(47, 45, 45, 0.5); 
+	height: 100vh;
+}
+
+.video-background{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+}
+
+@media(max-aspect-ratio:16/9)
+{
+	.video-background{
+		width: auto;
+		height: 100%;
+	}
+}
+.logo{
+	margin: 25px;
+	margin-left: -15px;
+	height: 90px;
+	width: 260px;
+}
+
+.welcome-msg{
+	position: relative;
+	text-align: center;
+	color: #fff;
+	top: -39px;
+}
+
+.welcome-msg h3{
+	font-size: 80px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+.welcome-msg h1{
+	font-size: 80px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+
+.element{
+	color: red;
+	font-weight: bold;
+}
+
+.btn{
+	font-size: 30px;
+	color: #fff;
+	margin: 85px;
+	padding: 10px 32px;
+	text-decoration: none;
+	border: 3px solid #554f4f70;
+	border-radius: 15px; 
+}
+
+.btn-subscribe{
+	color: #b3ffd1;
+}
+
+.btn-subscribe:hover{
+	color: #fff;
+	background-color: #131313d1;
+	transition: .8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*video*/
+/*https://r5---sn-cvh76nes.googlevideo.com/videoplayback?expire=1577296733&ei=_U4DXoWrINTLkgap8bngDg&ip=107.178.124.121&id=o-AFr2T8lUbygqWk-J-fTd1wXCMWIgBW6S7vvyquyMZs8j&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mime=video%2Fmp4&gir=yes&clen=35365530&dur=65.198&lmt=1458616316928520&fvip=5&keepalive=yes&fexp=23842630,23860863&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=ALgxI2wwRQIgLrC4uR6_Db-G4ZG8oO9P-N9U7vnuWZKddDvIrIyS_pUCIQCU2w_HB3lygvKOUZZbXiY_isvid5pJ6OX65DA_lNV_zw%3D%3D&ratebypass=yes&rm=sn-5uare76&req_id=cd821f86021ea3ee&ipbypass=yes&redirect_counter=2&cm2rm=sn-oxu4vg0po-cvhl7l&cms_redirect=yes&mip=103.66.234.179&mm=29&mn=sn-cvh76nes&ms=rdu&mt=1577275073&mv=m&mvi=4&pl=24&lsparams=ipbypass,mip,mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIhAJyV6ez25Ntd8LX7EzA7IJGtBurBkzRiKImt6JWkkm_mAiB2CBZNyGTPU8cv-J7rO12Llqxxh-_SzOhaWIlR94KgyQ==*/

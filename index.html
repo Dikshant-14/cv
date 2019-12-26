@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="header">
+		<video autoplay loop class="video-background" muted plays-inline>
+			<source src="video1.mp4" type="video/mp4">
+		</video>
+
+		<img src="newblitz.png" class="logo">
+		<div class="welcome-msg">
+		<h3>Welcome <br>I am Dikshant</h3>
+		<h1>And I am <span class="element"></span></h1>
+		<a href="index.html" class="btn btn-subscribe">Let's Start</a>
+</section>
+
+
+
+<script src="jquery.2.min.js"></script>
+<script src="typed.min.js"></script>
+<script type="text/javascript">
+	var typed = new Typed('.element', {
+  strings: ["Developer.", "Programmer.","Gamer."],
+  loop: true,
+  typeSpeed: 70,
+  backSpeed: 50,
+  backDelay: 1100,
+});
+</script>
+</body>
+</html>
