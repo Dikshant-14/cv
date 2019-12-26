@@ -45,7 +45,7 @@
 	position: relative;
 	text-align: center;
 	color: #fff;
-	top: 10px;
+	top: 100px;
 }
 
 .welcome-msg h3{
@@ -62,7 +62,7 @@
 }
 
 .element{
-	color: red;
+	color: #ff6c00;
 	font-weight: bold;
 }
 
