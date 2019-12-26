@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!-- header -->
+<section id="header">
+	<div class="container text-center">
+		<div class="user-box">
+			<img src="profile.jpg">
+			<h1>Dikshant</h1>
+			<p>Java and Web Developer</p>
+		</div>	
+	</div>
+
+	<div class="scroll-btn">
+		<div class="scroll-bar">
+			<a href="#about"><span></span></a>
+		</div>		
+	</div>
+</section>
+
+<!-- User-Info -->
+
+<section id="user-info">
+	<div class="nav-bar">
+	<nav class="navbar navbar-expand-lg">
+  	<a class="navbar-brand" href="#"><img src="newlogo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT ME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#experience">EDUCATION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">PROJECT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<!-- about -->
+<h1 class="text-center" style="padding-top: 25px;">About Me</h1>
+<p class="text-center">Who am I</p>
+<div class="about container" id="about">
+	<div class="row">
+		<div class="col-md-6 text-center">
+			<img src="image.jpg" class="profile-img" width="300" height="300">
+		</div>
+		<div class="col-md-6">
+			<p>I am a <b>programmer</b> with good knowledge of front-end techniques.<br>I am an allround web developer.  <br> I love structure and order and I also stand for quality. <br>I love spending time on fixing little details and optimizing web apps. <br> Also I like working in a team, you'll learn faster and much more. <br> As the saying goes: 'two heads are better than one'. </p>
+			<div class="skills-bar">
+				<p>HTML,CSS</p>
+				<div class="progress">
+					<div class="progress-bar" style="width: 80%;">
+						<!-- 80 -->
+					</div>
+				</div>
+				<p>Java</p>
+				<div class="progress">
+					<div class="progress-bar" style="width: 75%;">
+						<!-- 70 -->
+					</div>
+				</div>
+				<p>SQL</p>
+				<div class="progress">
+					<div class="progress-bar" style="width: 75%;">
+					<!-- 70 -->
+					</div>
+				</div>
+				<p>Wordpress,Bootstrap</p>
+				<div class="progress">
+					<div class="progress-bar" style="width: 73%;">
+						<!-- 73% -->
+					</div>
+				</div>
+				<p>Python,Javascript,Flask</p>
+				<div class="progress">
+					<div class="progress-bar" style="width: 45%;">
+						<!-- 40% -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- social icons ------------------------>
+
+<div class="social-icons">
+	<ul>
+		<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+		<a href="#"><li><i class="fa fa-twitter"></i></li></a>
+		<a href="#"><li><i class="fa fa-github"></i></li></a>
+		<a href="#"><li><i class="fa fa-facebook-square"></i></li></a>
+		<a href="#"><li><i class="fa fa-instagram"></i></li></a>
+		<a href="#"><li><i class="fa fa-youtube-play"></i></li></a>
+		<a href="#contact"><li><i class="fa fa-whatsapp"></i></li></a>
+	</ul>
+</div>
+
+
+<!-- my experience -->
+<hr>
+<h1 class="text-center" id="experience">Education</h1>
+<div class="exp_table">
+	<table >
+ <tr>
+    <th style="color: blue">Educations</th>
+    <td style="color: blue"><b>Board/University</b></th>
+  </tr>
+  <tr>
+    <th>B.E (Computer) <br>2015-2019</th>
+    <td>Mumbai University <br>PVPP College of ENgineering</td>
+   </tr>
+  <tr>
+    <th>HSC <br>2013-2015</th>
+    <td>Maharashtra State Board <br>Versova Welfare Association High School & Jr. College of Commerce and Science.</td>
+  </tr>
+  <tr>
+    <th>SSC <br>2013</th>
+    <td>Maharashtra State Board <br>Versova Welfare Association High School & Jr. College of Commerce and Science.</td>
+   </tr>
+  </table>
+</div>
+
+
+<!-- sevrvice ----------------------->
+
+<div class="services" id="services">
+	<div class="container">
+		<h1 class="text-center">My Projects</h1>
+		<p class="text-center">My Projects up till now are</p>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="services-box">
+					<i class="fa fa-book"></i><span>Book Recommendation</span>
+					<p>Book Recommendation System<br> is where you can enter the last book you read and you will get recommended similar books.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<a href="http://playweb.eckovation.com/dikshant/" target="_blank" style="text-decoration: none; color: black;"><div class="services-box">
+					<i class="fa fa-shopping-cart"></i><span>E-Earphones</span>
+					<p>Visit my Website<br>where you can buy different types of earphones or headphones at low price.</p>
+				</div></a>
+			</div>
+			<div class="col-md-4">
+				<a href="http://playweb.eckovation.com/dikshantg/" target="_blank" style="text-decoration: none; color: black;">
+				<div class="services-box">
+					<i class="fa fa-code"></i><span>Pro-Coder</span>
+					<p>Visit my Website<br>where you can numbers of programming related books as wee as download it for free.</p>
+				</div></a>
+			</div>			
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+<!-- cpntact --------------------------->
+
+<div class="contact" id="contact">
+	<div class="container text-center">
+		<h1>Contact Me</h1>
+		<p class="text-center">I am up For Employment<br>You can contact me in any of the below.</p>
+		<div class="row">
+			<div class="col-md-4">
+				<i class="fa fa-phone"></i>
+				<p>+91 9833190987</p>
+			</div>
+			<div class="col-md-4">
+				<i class="fa fa-envelope"></i>
+				<p>dikshant.gotame@gmail.com</p>
+			</div>
+			<div class="col-md-4">
+				<i class="fa fa-internet-explorer"></i>
+				<p>www.mywebsite.com</p>
+			</div>
+		</div>
+		<a href="https://drive.google.com/open?id=1imxpkHkHfa9h9mXc_EvrnXoJgXOMT_X_" target="_blank">
+		<button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Resume</button></a>
+		<a href="https://mail.google.com/mail/?view=cm&fs=1&to=dikshant.gotame@gmail.com&su&body" target="_blank">
+		<button type="button" class="btn btn-primary"><i class="fa fa-inr"></i>Hire Me</button></a>
+	</div>
+	<div class="footer text-center">
+		<p>Copyright 2019 <i class="fa fa-copyright"></i> Reserved</p>
+	</div>
+</div>
+</section>
+
+
+<!-- Smooth Scroll -->
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+</body>
+</html>
