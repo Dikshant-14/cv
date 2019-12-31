@@ -66,28 +66,7 @@
 	font-weight: bold;
 }
 
-/* .btn{
-	font-size: 30px;
-	color: #fff;
-	margin: 85px;
-	padding: 10px 32px;
-	text-decoration: none;
-	border: 3px solid #554f4f70;
-	border-radius: 15px; 
-}
-
-.btn-subscribe{
-	color: #b3ffd1;
-}
-
-.btn-subscribe:hover{
-	color: #fff;
-	background-color: #131313d1;
-	transition: .8s;
-}
- */
-
-.btn{
+a{
 	font-size: 30px;
 	color: #fff;
 	/*margin: 35px;*/
@@ -108,8 +87,8 @@
 
 }
 
-.btn:hover{
-	/*animation: animate 10s linear infinite;*/
+a:hover{
+	animation: animate 10s linear infinite;
 }
 
 @keyframes animate
@@ -125,7 +104,7 @@
 }
 
 
-.btn:before{
+a:before{
 	content: '';
 	position: absolute;
 	top: -5px;
@@ -133,18 +112,42 @@
 	right: -5px;
 	bottom: -5px;
 	z-index: -1;
-	background: linear-gradient(270deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+	background: linear-gradient(45deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
 	background-size: 400%;
 	border-radius: 40px;
 	opacity: 0;
-	transition: 0.6s;
+	transition: 0.5s;
 }
 
 a:hover:before{
-	filter: blur(10px);
+	filter: blur(20px);
 	opacity: 1;
-	animation: animate 10s linear infinite;
+	/*animation: animate 10s linear infinite;*/
 }
+
+
+
+
+/* .btn{
+	font-size: 30px;
+	color: #fff;
+	margin: 85px;
+	padding: 10px 32px;
+	text-decoration: none;
+	border: 3px solid #554f4f70;
+	border-radius: 15px; 
+}
+
+.btn-subscribe{
+	color: #b3ffd1;
+}
+
+.btn-subscribe:hover{
+	color: #fff;
+	background-color: #131313d1;
+	transition: .8s;
+}
+ */
 
 
 
